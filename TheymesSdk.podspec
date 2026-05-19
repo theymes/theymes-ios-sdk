@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'TheymesSdk'
   s.description = 'Theymes SDK for iOS'
-  s.version = '1.4.0-rc2'
+  s.version = '1.4.0-rc3'
   s.summary = 'Theymes SDK'
   s.license = {
     :type => 'Commercial',
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://theymes.com'
   s.platform = :ios, '13.0'
   s.authors = { 'Theymes' => 'contact@theymes.com' }
-  s.source = { :http => 'https://github.com/theymes/theymes-ios-sdk/releases/download/v1.4.0-rc2/TheymesSdk.xcframework.zip',
-               :sha256 => '65589ecc88523ed9b5589bf94a3f5f7b26b9fda89e0adec3810c825725a6b097' }
+  s.source = { :http => 'https://github.com/theymes/theymes-ios-sdk/releases/download/v1.4.0-rc3/TheymesSdk.xcframework.zip',
+               :sha256 => '57045331be942d488089f3f653f0aa448e6537e63a85f1bf4b330b31e43018b8' }
   s.vendored_frameworks = 'TheymesSdk.xcframework'
 end
